@@ -9,6 +9,7 @@
     width: 70px;
     background-color: rgb(254,211,74);
     height: 2px;
+    border: 0;
 }
 .item__text{
     color: rgb(92,92,92);
