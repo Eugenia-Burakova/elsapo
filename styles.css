@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Raleway:wght@900&display=swap');
+.products__text{
+    color: rgb(37,99,77);
+    text-align: center;
+    font-size: 50px;
+    font-family: "Raleway",sans-serif; 
+}
+.hr__products {
+    width: 70px;
+    background-color: rgb(254,211,74);
+    height: 2px;
+}
+.item__text{
+    color: rgb(92,92,92);
+    font-family: "Loto",sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
