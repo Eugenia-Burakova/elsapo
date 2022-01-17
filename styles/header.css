@@ -4,3 +4,27 @@
     font-size: 35px;
     font-family: Raleway, sans-serif;
 }
+
+.header__panel, .header__buttons{
+    display: flex;
+}
+
+.header__buttons a{
+    color:rgb(92, 92, 92);
+    font-family:"Open Sans", sans-serif;
+    font-size:16px;
+    font-weight:600;
+    text-decoration-line:none;
+}
+
+.header__underpanel__fon img{
+    display:block;
+    width: 100%;
+}
+
+.header__underpanel__foncontent{
+    position:absolute;
+    justify-content:normal;
+    display:inline;
+    height:auto;
+}
