@@ -9,8 +9,8 @@
     background-color: rgb(254,211,74);
     height: 2px;
     border: 0;
-    margin: 40px;
-    margin-left: 910px;
+    margin: 40px auto;
+    
 }
 .item__text{
     color: rgb(92,92,92);
