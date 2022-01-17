@@ -5,10 +5,12 @@
     font-family: "Raleway",sans-serif; 
 }
 .hr__products {
-    width: 70px;
+    width: 80px;
     background-color: rgb(254,211,74);
     height: 2px;
     border: 0;
+    margin: 40px;
+    margin-left: 910px;
 }
 .item__text{
     color: rgb(92,92,92);
