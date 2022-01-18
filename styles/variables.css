@@ -1,7 +1,8 @@
 :root {
-    --light-green: #b8d94f;
-    --dark-green: #25634d;
-    --yellow: #fed34a;
-    --text-grey: #5c5c5c;
-    --text-dark: #696969;
+    --elsapo-color: #b8d94f;
+    --section-name: #25634d;
+    --button-color: #fed34a;
+    --text-primary: #5c5c5c;
+    --text-secondary: #696969;
+    --background-footer: #f6f5f0;
     }
