@@ -1,20 +1,26 @@
 .products__text{
-    color: rgb(37,99,77);
+    color: #25634d;
     text-align: center;
     font-size: 50px;
     font-family: "Raleway",sans-serif; 
 }
 .hr__products {
     width: 80px;
-    background-color: rgb(254,211,74);
+    background-color: #fed34a;
     height: 2px;
     border: 0;
     margin: 40px auto;
     
 }
 .item__text{
-    color: rgb(92,92,92);
-    font-family: "Loto",sans-serif;
-    font-size: 26px;
-    font-weight: 700;
+    color: #5c5c5c;
+    font-family: "Lato",sans-serif;
+    font-size: 22px;
+    text-align: center;
 }
+.products_img{
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px;
+}
+
