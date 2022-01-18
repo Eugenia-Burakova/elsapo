@@ -22,5 +22,18 @@
     border-radius: 15px;
     display: inline-block;
     padding: 10px;
+    
 }
-
+.prod_common{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.block__products{
+    padding: 0px 0px 40px 10px;
+}
+@media(max-width: 600px){
+    .block__products{
+width: 600px;
+    }
+}
