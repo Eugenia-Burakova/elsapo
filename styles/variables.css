@@ -1,8 +1,8 @@
 :root {
     --elsapo-color: #b8d94f;
-    --section-name: #25634d;
+    --section-name-color: #25634d;
     --button-color: #fed34a;
-    --text-primary: #5c5c5c;
-    --text-secondary: #696969;
-    --background-footer: #f6f5f0;
+    --text-primary-color: #5c5c5c;
+    --text-secondary-color: #696969;
+    --background-footer-color: #f6f5f0;
     }
