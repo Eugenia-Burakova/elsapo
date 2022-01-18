@@ -134,6 +134,10 @@
     }
     .footer__block-navigation a {
         position: relative;
+
+    }
+    .footer__block-navigation a:hover {
+        color: var(--button-color);
     }
     .footer__block-navigation a::after {
         content: '';
