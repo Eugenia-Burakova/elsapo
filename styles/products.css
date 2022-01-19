@@ -25,17 +25,17 @@
     
 }
 .prod_common{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    
 }
 .block__products{
     padding: 0px 0px 40px 10px;
 }
-@media(max-width: 600px){
-    .block__products{
-width: 75%;
-text-align: center;
+@media(max-width: 700px){
+    .prod_common{
+        grid-template-columns: 3fr 3fr;
     }
-}
+    }
+
 
