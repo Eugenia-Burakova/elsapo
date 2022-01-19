@@ -1,4 +1,9 @@
 
 .sliderblock{
-    background-color: rgb(246,244,240);
+    background-color: var(--meals-fon-color);
+    position:relative;
+}
+
+.slider__foodposition__img{
+    width: 140px;
 }
