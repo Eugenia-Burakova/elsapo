@@ -18,7 +18,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Open Sans, sans-serif;
+}
+img {
+    display: block ; 
+    width: 100%;
+}
+.container {
+    max-width: 980px;
+    margin: auto;
 }
