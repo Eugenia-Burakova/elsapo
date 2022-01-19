@@ -5,6 +5,9 @@
     font-family: Raleway, sans-serif;
 }
 
+.header{
+    min-height: 600px;
+}
 .header__panel, .header__buttons{
     display: flex;
     width: 100%;
@@ -22,7 +25,7 @@
         text-decoration-line:none;
         margin: 20px;
         float: inline-end;
-        display:block;;
+        display:block;
     }
 
 }
@@ -31,7 +34,14 @@
 .header__underpanel__fon img{
     display:block;
     width: 100%;
-    
+    height: auto;
+    object-fit: contain;
+}
+.header__underpanel__fon{
+    background-image: url(../img/hero.png) ;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
 }
 
 .header__underpanel__foncontent{

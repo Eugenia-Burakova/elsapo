@@ -1,17 +1,19 @@
 
-
+/* general question why we shouldnot use id for styling*/
 .contacts {
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 60% 40%;
     padding: 0px 24px;
     width: auto;
+    background-image:url('../img/contacts/cherry.png'); /*why it's not shown properly, how to limit params of image so cherry will appear on the beckground? */
 }
 
 
 .contacts__info {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
-  padding-right: 5px;  
+  padding-top: 40px;
+  padding-bottom: 40px;  
 }
 
 .contacts__form {
@@ -20,12 +22,13 @@
     padding-left: 5px;
 }
 
-.contacts__intro > p {
+.contacts__info > p {
     position: relative;
     color: var(--text-secondary-color);
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
     line-height: 2;
+    padding-bottom: 30px;
     
 }
 
@@ -34,22 +37,60 @@
     font-size: 38px;
     font-family: "Raleway", sans-serif;
     text-align: left;
-    padding-bottom: 42.5px;
-    
+    padding-bottom: 35px;
+    position: relative;
 } 
+
+.contacts__title__line {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: var(--button-color); /*why background color, not just a color??? */
+}
 
 .contacts__bold {
     color: var(--section-name-color) !important;
-    font-size: 22px; !important
-    font-family: "Lato", sans-serif; !important
+    font-size: 22px !important;
+    font-family: "Lato", sans-serif !important;
+    padding-top: 30px;
+    padding-bottom: 20px; 
 }
 
-.form__fields {
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    grid-row-gap: 50px;
+.contacts__simple {
+    color: var(--text-primary-color) !important;
+    font-size: 16px !important;
+    font-family: "Open Sans", sans-serif !important;
+    line-height: 2 !important;
 }
 
+.contacts__details > a {
+    text-decoration: none;
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    
+}
+
+.contacts__form__button {
+text-transform: uppercase;
+font-size: 13px;
+font-family: "Poppins", sans-serif;
+text-align: center;
+background-color: var(--button-color);
+width: 200px;
+height: 50px;
+border-radius: 10px;
+border: none;
+}
 
 @media (min-width: 600px) {
 .contacts{
