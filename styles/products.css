@@ -34,6 +34,8 @@
 }
 @media(max-width: 600px){
     .block__products{
-width: 600px;
+width: 75%;
+text-align: center;
     }
 }
+
