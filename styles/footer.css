@@ -111,7 +111,8 @@
     gap: 50px;
     }
     .footer__block-description-text {
-        margin-top: 50px;
+        margin-top: 10px;
+        text-align: justify;
     }
     .footer__conteiner-navigation-left,
     .footer__conteiner-navigation-right {
@@ -144,6 +145,7 @@
     .footer__block-navigation a::after {
         content: '';
         padding-top: 25px;
+        margin-top: 40px;
         border-radius: 20px;
         z-index: -1000;
         position: absolute;
