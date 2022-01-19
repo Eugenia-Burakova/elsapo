@@ -7,20 +7,26 @@
 
 .header__panel, .header__buttons{
     display: flex;
-    margin: 20px;
+    width: 100%;
+}
+.header__buttons a{
+    display: none;
 }
 
-.header__buttons a{
-    color:rgb(92, 92, 92);
-    font-family:"Open Sans", sans-serif;
-    font-size:16px;
-    font-weight:600;
-    text-decoration-line:none;
-    margin: 20px;
-    width: 100%;
-    float: inline-end;
-    
+@media(min-width:990px){
+    .header__buttons a{
+        color: var(--header-buttons-color);
+        font-family:"Open Sans", sans-serif;
+        font-size:16px;
+        font-weight:600;
+        text-decoration-line:none;
+        margin: 20px;
+        float: inline-end;
+        display:block;;
+    }
+
 }
+
 
 .header__underpanel__fon img{
     display:block;
@@ -31,11 +37,11 @@
 .header__underpanel__foncontent{
     color: white;
     position:absolute;
-    text-align: center;
     top: 40%;
     width: 100%;
-    height: auto;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header__underpanel__sitename{
