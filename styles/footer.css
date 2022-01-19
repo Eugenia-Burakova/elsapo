@@ -1,6 +1,6 @@
 
 .footer__block {
-    background-color: var(--background-footer);
+    background-color: var(--background-footer-color);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -10,7 +10,7 @@
     padding-bottom: 40px;
     gap: 20px;
     font-family: Open Sans,sans-serif;
-    color: var(--text-primary);
+    color: var(--text-primary-color);
 }
 
 .footer__block-description {
@@ -51,7 +51,7 @@
     text-decoration: none;
     margin-top: 20px;
     font-size: 17px;
-    color: var(--text-primary);
+    color: var(--text-primary-color);
     font-weight: 100;   
 }
 @media (min-width: 600px) { 
@@ -92,7 +92,7 @@
 }
 
 .footer__block-form-button:hover {
-    background-color: var(--section-name);
+    background-color: var(--section-name-color);
     color: white;
     transition: .3s ease-out;
     cursor: pointer;
@@ -120,7 +120,7 @@
     .footer__block-bottom-part::before { 
         display: block;
         height: 0.5px;
-        background-color:var(--text-secondary);
+        background-color:var(--text-secondary-color);
         content: " ";
         width: 80%;
         margin: 0 auto;
