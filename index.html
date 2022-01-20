@@ -46,7 +46,7 @@
         </div>
         <div class="header__underpanel">
             <div class="header__underpanel__fon">
-                
+
             </div>
             <div class="header__underpanel__foncontent">
                 <div class="header__underpanel__sitename">
@@ -260,17 +260,15 @@
                     <a href="mailto:elsapo@email.com" class="contacts__simple">elsapo@email.com</a>
                 </div>
             </div>
-            <div class="contacts__form">
-                <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-                    <input type="text" id="full_name" name="full_name" placeholder="Enter your full name*" required
-                        autocomplete="on">
-                    <input type="text" id="phone_number" name="phone_number" placeholder="Enter your phone number*"
-                        required autocomplete="on">
-                    <input type="text" id="email" name="email" placeholder="Enter your e-mail*" required>
-                    <input type="text" id="message" name="message" placeholder="Type your message">
-                    <button type="submit" class="contacts__form__button">message us</button>
-                </form>
-            </div>
+            <form action="https://www.freecatphotoapp.com/submit-cat-photo" class="contacts__form">
+                <input type="text" id="full_name" name="full_name" placeholder="Enter your full name*" required
+                    autocomplete="on" class="contacts__form__fields">
+                <input type="text" id="phone_number" name="phone_number" placeholder="Enter your phone number*" required
+                    autocomplete="on" class="contacts__form__fields">
+                <input type="text" id="email" name="email" placeholder="Enter your e-mail*" required class="contacts__form__fields">
+                <input  type="text" id="message" name="message" placeholder="Type your message" class="contacts__form__message">
+                <button type="submit" class="contacts__form__button">message us</button>
+            </form>
         </div>
     </section>
     <!--End of Dima`s Section-->
@@ -278,49 +276,51 @@
     <!--Ivan block start-->
     <footer class="footer__block">
         <div class="container">
-        <div class="footer__block-top-part">
-            <div class="footer__block-description">
-                <div class="footer__block-description-heading">
-                    <a href="#">Elsapo</a>
+            <div class="footer__block-top-part">
+                <div class="footer__block-description">
+                    <div class="footer__block-description-heading">
+                        <a href="#">Elsapo</a>
+                    </div>
+                    <div class="footer__block-description-text">
+                        We are selling natural and organic foods in New York! Buy our products and stay healthy and
+                        happy!
+                    </div>
                 </div>
-                <div class="footer__block-description-text">
-                    We are selling natural and organic foods in New York! Buy our products and stay healthy and happy!
+                <div class="footer__block-navigation">
+                    <div class="footer__conteiner-navigation-left">
+                        <a href="">Deals</a>
+                        <a href="">Product</a>
+                        <a href="">Healthy Bar</a>
+                        <a href="">About</a>
+                    </div>
+                    <br>
+                    <div class="footer__conteiner-navigation-right">
+                        <a href="">Recipes</a>
+                        <a href="">Blog</a>
+                        <a href="">Careers</a>
+                        <a href="">Contacts</a>
+                    </div>
+                </div>
+                <div class="footer__block-form">
+                    <div class="footer__block-form-text">
+                        Subscribe to get the latest news and special offers right to your inbox
+                    </div>
+                    <div class="footer__block-form-email">
+                        <input name="email" type="email" id="email-footer" placeholder="Email*"
+                            class="footer__block-form-email-field" required>
+                        <input type="Submit" value="SUBSCRIBE" id="footer-email-btn" class="footer__block-form-button">
+                    </div>
                 </div>
             </div>
-            <div class="footer__block-navigation">
-                <div class="footer__conteiner-navigation-left">
-                    <a href="">Deals</a>
-                    <a href="">Product</a>
-                    <a href="">Healthy Bar</a>
-                    <a href="">About</a>
-                </div>
-                <br>
-                <div class="footer__conteiner-navigation-right">
-                    <a href="">Recipes</a>
-                    <a href="">Blog</a>
-                    <a href="">Careers</a>
-                    <a href="">Contacts</a>
-                </div>
-            </div>
-            <div class="footer__block-form">
-                <div class="footer__block-form-text">
-                    Subscribe to get the latest news and special offers right to your inbox
-                </div>
-                <div class="footer__block-form-email">
-                    <input name="email" type="email" id="email-footer" placeholder="Email*"
-                        class="footer__block-form-email-field" required>
-                    <input type="Submit" value="SUBSCRIBE" id="footer-email-btn" class="footer__block-form-button">
+            <div class="footer__block-bottom-part">
+                <div class="footer__block-bottom-part-align">
+                    <p class="footer__block-bottom-part--left">&copy;Created by</p>
+                    <p class="footer__block-bottom-part--right">All rights Reserved</p>
                 </div>
             </div>
         </div>
-        <div class="footer__block-bottom-part">
-            <div class="footer__block-bottom-part-align">
-                <p class="footer__block-bottom-part--left">&copy;Created by</p>
-                <p class="footer__block-bottom-part--right">All rights Reserved</p>
-            </div>
-        </div>
-    </div>
     </footer>
     <!--Ivan block end-->
 </body>
+
 </html>

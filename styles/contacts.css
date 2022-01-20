@@ -1,28 +1,23 @@
 
 
+.contacts {
+    background-image:url('../img/contacts/cherry.png'); 
+    background-position: 99% -15%;
+    background-size: 991%;
+}
+
 .container {
-    /*display: grid;
-    grid-template-rows: 60% 40%;*/
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     margin: 0px 24px;
-    background-image:url('../img/contacts/cherry.png'); 
-    background-position: 99% -15%;
-    background-size: 991%;
     padding-top: 50px;
     padding-bottom: 90px;
 }
 
 
-.contacts__info {
-  /*display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  
-  margin-top: 40px;
-  margin-bottom: 40px;  */
-}
 
 .contacts__intro > p {
     position: relative;
@@ -55,18 +50,18 @@
 }
 
 .contacts__bold {
-    color: var(--section-name-color) !important;
-    font-size: 22px !important;
-    font-family: "Lato", sans-serif !important;
+    color: var(--section-name-color);
+    font-size: 22px;
+    font-family: "Lato", sans-serif;
     padding-top: 25px;
     padding-bottom: 10px; 
 }
 
 .contacts__simple {
-    color: var(--text-primary-color) !important;
-    font-size: 16px !important;
-    font-family: "Open Sans", sans-serif !important;
-    line-height: 2 !important;
+    color: var(--text-primary-color);
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 2;
 }
 
 .contacts__info__details > a {
@@ -76,11 +71,47 @@
 .contacts__form {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 20%;
-    margin-bottom: 20%;
+    padding-top:10%;
+    width: 272px;
+    height: 604px;
+    background-color: var(--light-text-color);
+    border-radius: 10px;
+    box-shadow:
+    0 2.8px 63.2px rgba(0, 0, 0, 0.15),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+    
     /* how to make a frame*/
+}
+
+input.contacts__form__fields {
+    background-color: rgba(92, 92, 92, 0.12);
+    padding: 20px 30px;
+    margin: 12px 0 0;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    height: 55px;
+    width: 174px;
+    text-overflow: ellipsis;
+}
+
+input.contacts__form__message {
+    background-color: rgba(92, 92, 92, 0.12);
+    padding: 20px 30px;
+    margin: 12px 0 0;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+    width: 174px;
 }
 
 .contacts__form__button {
@@ -88,11 +119,14 @@ text-transform: uppercase;
 font-size: 13px;
 font-family: "Poppins", sans-serif;
 text-align: center;
+color: var(--section-name-color);
 background-color: var(--button-color);
-width: 200px;
-height: 50px;
+width: 174px;
+height: 53px;
 border-radius: 10px;
 border: none;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 @media (min-width: 600px) {
