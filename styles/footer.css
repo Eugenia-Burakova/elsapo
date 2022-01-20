@@ -16,7 +16,6 @@
 .footer__block-description {
     display: flex;
     flex-direction: column;
-    padding: 0 20px 0 20px;
     line-height: 30px;
 }   
 .footer__block-description-heading a{
@@ -65,7 +64,6 @@
 .footer__block-form {
     display: flex;
     flex-direction: column;
-    padding: 0 20px 0 20px;
     line-height: 30px;
     font-size: 17px;
     align-items: center
