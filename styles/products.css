@@ -20,18 +20,13 @@
 }
 .products_img{
     border-radius: 15px;
-    display: inline-block;
-    padding: 10px;
-    
+    margin: auto; 
 }
 .prod_common{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;
-    
 }
-.block__products{
-    padding: 0px 0px 40px 10px;
-}
+
 @media(max-width: 700px){
     .prod_common{
         grid-template-columns: 3fr 3fr;
