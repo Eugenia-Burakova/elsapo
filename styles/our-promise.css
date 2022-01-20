@@ -9,7 +9,7 @@
 }
 
 .our-promise {
-    background-image: url(/img/our-promise/our-promise-background.png);
+    background-image: url(../img/our-promise/our-promise-background.png);
     background-size: cover;
     padding-bottom: 40px;
 }
