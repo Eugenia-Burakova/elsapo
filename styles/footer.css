@@ -163,4 +163,8 @@
     transform-origin: left;
     width: 100%;
     }
+    .footer__block-form-email-field {
+    text-align: left;
+    padding-left: 30px;
+    }
 }
