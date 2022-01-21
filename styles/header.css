@@ -4,23 +4,21 @@
     font-size: 35px;
     font-family: "Raleway", sans-serif;
     margin-left: 30px;
-    
 }
 
 .sitename, .header__buttons{
     margin-top:35px;
 }
 .header{
-    min-height: 600px;
+    min-height: 500px;
 }
 .header__panel, .header__buttons{
     display: flex;
     width: 100%;
     justify-content: flex-end;
-}
-.header__panel{
     height: 116px;
 }
+
 .header__buttons a{
     display: none;
 }
@@ -52,8 +50,13 @@
 .header__underpanel__fon{
     background-image: url(../img/hero.png) ;
     background-size: cover;
-    background-position: center;
-    min-height: 750px;
+    background-position: 35.50% 50.50%;
+    min-height: 561px;
+}
+@media(min-width:770px){
+    .header__underpanel__fon{
+        min-height: 821.7px;
+    }
 }
 
 .header__underpanel__foncontent{

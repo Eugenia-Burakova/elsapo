@@ -77,6 +77,8 @@
     border-radius: 10px;
     border: none;
     margin: 20px 0 20px 0;
+    transition: 0.3s ease-in;
+    border: transparent;
 }
 .footer__block-form-button {
     height: 50px;
@@ -110,13 +112,19 @@
     justify-content: center;
     gap: 50px;
     }
+    .footer__block-description {
+        padding-top: 50px;
+    }
+
     .footer__block-description-text {
-        margin-top: 10px;
+        margin-top: 20px;
         text-align: justify;
+        margin-top: 4px;
     }
     .footer__conteiner-navigation-left,
     .footer__conteiner-navigation-right {
         width: 100px;
+        margin-top: -18px;
     }
     .footer__block-bottom-part::before { 
         display: block;
@@ -169,5 +177,15 @@
     }
     .footer__block {
         width: 100%;
+    }
+    .footer__block-form-email input:focus:valid {
+        border: 2px solid var(--elsapo-color); 
+    }
+    .footer__block-form-email input:-webkit-input-placeholder {
+        color: #999; 
+    }
+    .footer__block-form-email input:focus {
+        outline: none;
+        border: 2px solid var(--button-color);
     }
 }
