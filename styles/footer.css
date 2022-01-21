@@ -121,9 +121,9 @@
     .footer__block-bottom-part::before { 
         display: block;
         height: 0.5px;
-        background-color:var(--text-secondary-color);
+        background-color: var(--text-secondary-color);
         content: " ";
-        width: 80%;
+        width: 980px;
         margin: 0 auto;
         margin-top: 30px;   
     }
