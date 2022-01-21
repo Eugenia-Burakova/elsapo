@@ -6,7 +6,7 @@
     background-size: 991%;
 }
 
-.container {
+.contacts-entire {
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -136,7 +136,7 @@ margin-bottom: 20px;
         background-size: 200%;
     }
     
-    .container{
+    .contacts-entire {
     display: grid;
     grid-template-areas: "intro form"
                         "info form";
@@ -171,26 +171,6 @@ margin-bottom: 20px;
     .contacts__intro__title {
         font-size: 44px;
     }
-
-
-    /* to be archieved
-
-    .contacts__info__address, .contacts__info__hours, .contacts__info__details {
-        position: relative;
-    }
-
-    .contacts__simple { 
-        position: absolute;
-        right: 0;
-    }
-
-    .contacts__bold {
-        position: absolute;
-        left: 0;
-    } */
-
-     
-
 
     .contacts__info__address {
         display: grid;
