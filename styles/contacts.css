@@ -189,25 +189,29 @@ margin-bottom: 20px;
         left: 0;
     } */
 
-    /*  must word but something went wrong 
+     
 
 
     .contacts__info__address {
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
     .contacts__info__hours {
+        display: grid;
         grid-template-columns: 1fr 1fr; 
     }
 
     .contacts__info__details {
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
     .contacts__info__details__links {
+        display: grid;
         grid-template-rows: 1fr 1fr;
     }
-*/
+
 }
 
 
