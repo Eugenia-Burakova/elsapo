@@ -61,7 +61,6 @@
     gap: 50px;
     }
 }
-
 .footer__block-form {
     display: flex;
     flex-direction: column;
@@ -127,10 +126,10 @@
         margin-top: -18px;
     }
     .footer__block-bottom-part::before { 
-        display: block;
+        
         height: 0.5px;
         background-color: var(--text-secondary-color);
-        content: " ";
+        content: '';
         width: 980px;
         margin: 0 auto;
         margin-top: 30px;   
@@ -166,6 +165,7 @@
         transform-origin: right;
         transition: transform 250ms ease-in;
     }
+
     .footer__block-navigation a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
