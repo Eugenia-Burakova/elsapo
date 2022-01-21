@@ -18,7 +18,6 @@
 }
 
 
-
 .contacts__intro > p {
     position: relative;
     color: var(--text-secondary-color);
@@ -64,7 +63,7 @@
     line-height: 2;
 }
 
-.contacts__info__details > a {
+.contacts__info__details__links > a {
     text-decoration: none;
 }
 
@@ -88,7 +87,6 @@
     0 100px 80px rgba(0, 0, 0, 0.12)
   ;
     
-    /* how to make a frame*/
 }
 
 input.contacts__form__fields {
@@ -129,14 +127,89 @@ margin-top: 20px;
 margin-bottom: 20px;
 }
 
-@media (min-width: 600px) {
-.contacts{
-    background-image: url('');
-}
+
+@media (min-width: 768px) {
+    
+    .contacts {
+        background-image:url('../img/contacts/cherry.png'); 
+        background-position: 102% 5%;
+        background-size: 200%;
+    }
+    
+    .container{
+    display: grid;
+    grid-template-areas: "intro form"
+                        "info form";
+    width: 100%;
+    padding: 50px 32px 90px 32px;
+    }
+
+    .contacts__intro, .contacts__info {
+    grid-area: intro;
+    padding: 0 15px;
+    margin: 0;
+    }
+
+    .contacts__info {
+    grid-area: info;
+    padding: 0 15px;
+    height: auto;
+    }
+
+    .contacts__form {
+    grid-area: form;
+    margin: 0 15px;
+    width: 345px;
+    height: 625px;
+    }
+
+    input.contacts__form__fields {
+        height: 55px;
+        width: 250px;
+    }
+
+    .contacts__intro__title {
+        font-size: 44px;
+    }
+
+
+    /* to be archieved
+
+    .contacts__info__address, .contacts__info__hours, .contacts__info__details {
+        position: relative;
+    }
+
+    .contacts__simple { 
+        position: absolute;
+        right: 0;
+    }
+
+    .contacts__bold {
+        position: absolute;
+        left: 0;
+    } */
+
+    /*  must word but something went wrong 
+
+
+    .contacts__info__address {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contacts__info__hours {
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    .contacts__info__details {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contacts__info__details__links {
+        grid-template-rows: 1fr 1fr;
+    }
+*/
 }
 
-@media (min-width: 1024px) {
-    
-    }
+
 
 
