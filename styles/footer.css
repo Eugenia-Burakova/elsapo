@@ -112,6 +112,10 @@
     justify-content: center;
     gap: 50px;
     }
+    .footer__block-description {
+        padding-top: 50px;
+    }
+
     .footer__block-description-text {
         margin-top: 20px;
         text-align: justify;
