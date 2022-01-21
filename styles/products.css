@@ -30,14 +30,16 @@
     max-width: 1200px;
 }
 
-@media(max-width: 716px){
+@media(max-width: 1100px){
     .prod_common{
         grid-template-columns: 3fr 3fr;
+        margin: auto;
     }
     }
-    @media(max-width: 387px){
+    @media(max-width: 650px){
         .prod_common{
             grid-template-columns: 1fr;
+            margin: auto;
         }
         }
     
