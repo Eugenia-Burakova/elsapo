@@ -1,19 +1,29 @@
 
 .sitename{
-    color: var(--light-green);
+    color: var(--elsapo-color);
     font-size: 35px;
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
+    margin-left: 30px;
 }
 
+.sitename, .header__buttons{
+    margin-top:35px;
+}
 .header{
-    min-height: 600px;
+    min-height: 500px;
 }
 .header__panel, .header__buttons{
     display: flex;
     width: 100%;
+    justify-content: flex-end;
+    height: 116px;
 }
+
 .header__buttons a{
     display: none;
+}
+.header__buttons{
+    margin-right: 160px;
 }
 
 @media(min-width:990px){
@@ -40,14 +50,19 @@
 .header__underpanel__fon{
     background-image: url(../img/hero.png) ;
     background-size: cover;
-    background-position: center;
-    min-height: 600px;
+    background-position: 35.50% 50.50%;
+    min-height: 561px;
+}
+@media(min-width:770px){
+    .header__underpanel__fon{
+        min-height: 821.7px;
+    }
 }
 
 .header__underpanel__foncontent{
     color: white;
     position:absolute;
-    top: 40%;
+    top: 25%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -55,8 +70,14 @@
 }
 
 .header__underpanel__sitename{
-    font-family:Raleway, sans-serif;
-    font-size: 100px;
+    font-family: "Raleway", sans-serif;
+    font-size: 64px;
+    margin:auto;
+}
+.header__underpanel__description{
+    font-family: "Open Sans", sans-serif;
+    font-weight:700;
+    font-size: 20px;
 }
 
 .header__underpanel{
