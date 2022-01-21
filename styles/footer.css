@@ -77,6 +77,8 @@
     border-radius: 10px;
     border: none;
     margin: 20px 0 20px 0;
+    transition: 0.3s ease-in;
+    border: transparent;
 }
 .footer__block-form-button {
     height: 50px;
@@ -169,5 +171,16 @@
     }
     .footer__block {
         width: 100%;
+    }
+
+    .footer__block-form-email input:focus:valid {
+        border: 2px solid var(--elsapo-color); 
+    }
+    .footer__block-form-email input:-webkit-input-placeholder {
+        color: #999; 
+    }
+    .footer__block-form-email input:focus {
+        outline: none;
+        border: 2px solid var(--button-color);
     }
 }
