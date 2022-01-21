@@ -46,7 +46,7 @@
         </div>
         <div class="header__underpanel">
             <div class="header__underpanel__fon">
-                
+
             </div>
             <div class="header__underpanel__foncontent">
                 <div class="header__underpanel__sitename">
@@ -148,7 +148,7 @@
 
     <!--Zhenya Our Promise start-->
     <section class="our-promise">
-       <!-- <img class="our-promise__background" src="img/our-promise/our-promise-background.png" alt="products-with-green-backround"> -->
+        <!-- <img class="our-promise__background" src="img/our-promise/our-promise-background.png" alt="products-with-green-backround"> -->
         <h2 class="our-promise__title">Our Promise</h2>
 
         <hr class="our-promise__hr">
@@ -192,24 +192,24 @@
     <!--Zhenya Our Promise end-->
 
     <!-- Kateryna Our Producers start-->
-    <div class="section">
+    <section id="our-producers">
         <h2 class="section-title">Our Producers</h2>
-        <div class="dash"></div>
+        <hr class="hr-producers">
         <div class="cards">
             <div class="card">
-                <img src="https://res2.weblium.site/res/5ccffea753baad0023b3424b/5cd129d088d0340023bb5475_optimized_334_c334x501-0x0.webp"
+                <img class="img-producers" src="https://res2.weblium.site/res/5ccffea753baad0023b3424b/5cd129d088d0340023bb5475_optimized_334_c334x501-0x0.webp"
                     alt="coffe">
                 <h3 class="card-title">Small World Roasters</h3>
                 <p class="card-description">Organic coffees that are hand-roasted to perfection in small batches</p>
             </div>
             <div class="card">
-                <img src="https://res2.weblium.site/res/5ccffea753baad0023b3424b/5cd2ed5d22e2cb002373e786_optimized_1397_c1397x929-0x0.webp"
+                <img class="img-producers" src="https://res2.weblium.site/res/5ccffea753baad0023b3424b/5cd2ed5d22e2cb002373e786_optimized_1397_c1397x929-0x0.webp"
                     alt="steak">
                 <h3 class="card-title">Beechtree Farm</h3>
                 <p class="card-description">Grass-fed beef raised just up the road in Hopewell</p>
             </div>
             <div class="card">
-                <img src="https://res2.weblium.site/res/5ccffea753baad0023b3424b/5cd2ebdc461e1d0023685e38_optimized_1005_c688x889-33x251.webp"
+                <img class="img-producers" src="https://res2.weblium.site/res/5ccffea753baad0023b3424b/5cd2ebdc461e1d0023685e38_optimized_1005_c688x889-33x251.webp"
                     alt="cup of jam">
                 <h3 class="card-title">Eat This - Eat That!</h3>
                 <p class="card-description">Handmade sweet and savory jams and marmalades</p>
@@ -236,85 +236,90 @@
 
     <!-- Dima's Section-->
     <section class="contacts">
-        <div class="contacts__info">
-            <h2 class="contacts__title">Contacts
-                <hr class="contacts__title__line">
-            </h2>
-            <p>If you have some questions as to our products or services, feel free to get in touch with us. We will
-                call
-                you back shortly.</p>
-            <div class="contacts__address">
-                <p class=contacts__bold>Address</p>
-                <p class="contacts__simple">45 Rockefeller Plaza, New York, NY 10111, USA</p>
+        <div class="container">
+            <div class="contacts__intro">
+                <h2 class="contacts__intro__title">Contacts</h2>
+                <div class="contacts__intro__title__line"></div>
+                <p>If you have some questions as to our products or services, feel free to get in touch with us. We will
+                    call
+                    you back shortly.</p>
             </div>
-            <div class="contacts__hours">
-                <p class="contacts__bold">Hours</p>
-                <p class="contacts__simple">Open Everyday 8 am - 7 pm</p>
+            <div class="contacts__info">
+                <div class="contacts__info__address">
+                    <p class=contacts__bold>Address</p>
+                    <p class="contacts__simple">45 Rockefeller Plaza,<br> New York, NY 10111, USA</p>
+                </div>
+                <div class="contacts__info__hours">
+                    <p class="contacts__bold">Hours</p>
+                    <p class="contacts__simple">Open Everyday<br> 8 am - 7 pm</p>
+                </div>
+                <div class="contacts__info__details">
+                    <p class="contacts__bold">Contacts</p>
+                    <a href="tel:+1(234)5678900" class="contacts__simple">+1 (234) 567 89 00</a>
+                    <a href="mailto:elsapo@email.com" class="contacts__simple">elsapo@email.com</a>
+                </div>
             </div>
-            <div class="contacts__details">
-                <p class="contacts__bold">Contacts</p>
-                <a href="tel:+1(234)5678900" class="contacts__simple">+1 (234) 567 89 00</a>
-                <a href="mailto:elsapo@email.com" class="contacts__simple">elsapo@email.com</a>
-            </div>
+            <form action="https://www.freecatphotoapp.com/submit-cat-photo" class="contacts__form">
+                <input type="text" id="full_name" name="full_name" placeholder="Enter your full name*" required
+                    autocomplete="on" class="contacts__form__fields">
+                <input type="text" id="phone_number" name="phone_number" placeholder="Enter your phone number*" required
+                    autocomplete="on" class="contacts__form__fields">
+                <input type="text" id="email" name="email" placeholder="Enter your e-mail*" required class="contacts__form__fields">
+                <input  type="text" id="message" name="message" placeholder="Type your message" class="contacts__form__message">
+                <button type="submit" class="contacts__form__button">message us</button>
+            </form>
         </div>
-        <form action="https://www.freecatphotoapp.com/submit-cat-photo" class="contacts__form">
-            <input type="text" id="full_name" name="full_name" placeholder="Enter your full name*" required
-                autocomplete="on">
-            <input type="text" id="phone_number" name="phone_number" placeholder="Enter your phone number*" required
-                autocomplete="on">
-            <input type="text" id="email" name="email" placeholder="Enter your e-mail*" required>
-            <input type="text" id="message" name="message" placeholder="Type your message">
-            <button type="submit" class="contacts__form__button">message us</button>
-        </form>
     </section>
     <!--End of Dima`s Section-->
 
     <!--Ivan block start-->
     <footer class="footer__block">
         <div class="container">
-        <div class="footer__block-top-part">
-            <div class="footer__block-description">
-                <div class="footer__block-description-heading">
-                    <a href="#">Elsapo</a>
+            <div class="footer__block-top-part">
+                <div class="footer__block-description">
+                    <div class="footer__block-description-heading">
+                        <a href="#">Elsapo</a>
+                    </div>
+                    <div class="footer__block-description-text">
+                        We are selling natural and organic foods in New York! Buy our products and stay healthy and
+                        happy!
+                    </div>
                 </div>
-                <div class="footer__block-description-text">
-                    We are selling natural and organic foods in New York! Buy our products and stay healthy and happy!
+                <div class="footer__block-navigation">
+                    <div class="footer__conteiner-navigation-left">
+                        <a href="">Deals</a>
+                        <a href="">Product</a>
+                        <a href="">Healthy Bar</a>
+                        <a href="">About</a>
+                    </div>
+                    <br>
+                    <div class="footer__conteiner-navigation-right">
+                        <a href="">Recipes</a>
+                        <a href="">Blog</a>
+                        <a href="">Careers</a>
+                        <a href="">Contacts</a>
+                    </div>
+                </div>
+                <div class="footer__block-form">
+                    <div class="footer__block-form-text">
+                        Subscribe to get the latest news and special offers right to your inbox
+                    </div>
+                    <div class="footer__block-form-email">
+                        <input name="email" type="email" id="email-footer" placeholder="Email*"
+                            class="footer__block-form-email-field" required>
+                        <input type="Submit" value="SUBSCRIBE" id="footer-email-btn" class="footer__block-form-button">
+                    </div>
                 </div>
             </div>
-            <div class="footer__block-navigation">
-                <div class="footer__conteiner-navigation-left">
-                    <a href="">Deals</a>
-                    <a href="">Product</a>
-                    <a href="">Healthy Bar</a>
-                    <a href="">About</a>
-                </div>
-                <br>
-                <div class="footer__conteiner-navigation-right">
-                    <a href="">Recipes</a>
-                    <a href="">Blog</a>
-                    <a href="">Careers</a>
-                    <a href="">Contacts</a>
-                </div>
-            </div>
-            <div class="footer__block-form">
-                <div class="footer__block-form-text">
-                    Subscribe to get the latest news and special offers right to your inbox
-                </div>
-                <div class="footer__block-form-email">
-                    <input name="email" type="email" id="email-footer" placeholder="Email*"
-                        class="footer__block-form-email-field" required>
-                    <input type="Submit" value="SUBSCRIBE" id="footer-email-btn" class="footer__block-form-button">
+            <div class="footer__block-bottom-part">
+                <div class="footer__block-bottom-part-align">
+                    <p class="footer__block-bottom-part--left">&copy;Created by</p>
+                    <p class="footer__block-bottom-part--right">All rights Reserved</p>
                 </div>
             </div>
         </div>
-        <div class="footer__block-bottom-part">
-            <div class="footer__block-bottom-part-align">
-                <p class="footer__block-bottom-part--left">&copy;Created by</p>
-                <p class="footer__block-bottom-part--right">All rights Reserved</p>
-            </div>
-        </div>
-    </div>
     </footer>
     <!--Ivan block end-->
 </body>
+
 </html>
