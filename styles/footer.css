@@ -54,6 +54,7 @@
     color: var(--text-primary-color);
     font-weight: 100;   
 }
+
 @media (min-width: 600px) { 
     .footer__block-navigation {
      flex-direction: row;
@@ -102,7 +103,9 @@
     flex-direction: column;
     color: var(--elsapo-color);
     font-weight: 700;
-    margin: 20px 0 -90px 0;
+    margin: 20px 0 -15px 0;
+    width: 100%;
+    background-color: var(--background-footer-color);
 }   
 @media (min-width: 1024px) { 
     .footer__block-top-part {
@@ -126,7 +129,7 @@
         margin-top: -18px;
     }
     .footer__block-bottom-part::before { 
-        
+        display: block;
         height: 0.5px;
         background-color: var(--text-secondary-color);
         content: '';
