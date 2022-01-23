@@ -4,6 +4,50 @@
     position:relative;
 }
 
+
 .slider__foodposition__img{
     width: 140px;
+}
+
+.carousel-caption{
+    margin-top: 220px;
+}
+
+.carousel-item{
+    height: 455px;
+}
+
+.carousel-item img{
+    height: 254px;
+    width: 272px;
+    object-fit: cover;
+}
+
+@media (min-width:640px) {
+    .carousel-item{
+        height: 706px;
+    }
+    
+    .carousel-item img{
+        height: 554px;
+        width: auto;
+        object-fit: cover;
+    }
+}
+
+#carouselExampleCaptions{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.positionName{
+    color: var(--header-buttons-color);
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+.positionPrice{
+    color: var(--elsapo-color);
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
 }

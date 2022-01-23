@@ -78,8 +78,26 @@
     font-family: "Open Sans", sans-serif;
     font-weight:700;
     font-size: 20px;
+    text-align: center;
 }
 
 .header__underpanel{
     position:relative;
+}
+
+.header__underpanel__Browse a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: transparent;
+    height: 53px;
+    width: 200px;
+    font-weight:700;
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+    background-color: white;
+    color: var(--button-color);
+    cursor: pointer;
 }
