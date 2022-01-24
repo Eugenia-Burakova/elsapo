@@ -44,7 +44,7 @@
     background-color: var(--light-text-color);
     box-sizing: border-box;
     border-radius: 10px;
-    margin: 40px 20px 40px 20px;
+    margin: 20px;
     padding: 40px 20px 40px 20px;
     text-align: center;
 }
@@ -72,10 +72,6 @@
     .our-promise__infoblock {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin: 40px auto;
     }
-    
-   /*
-   .our-promise__infoblock-brick {
-    ;
-    }*/
 }
