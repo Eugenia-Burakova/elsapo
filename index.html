@@ -8,6 +8,7 @@
     <title>Organic Food Website Template Demo</title>
     <link rel="shortcut icon" type="image/png" href="img/elsapo-tab-icon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="styles/common.css">
 </head>
 
@@ -326,7 +327,7 @@
                 <div class="footer__block-top-part">
                     <div class="footer__block-description">
                         <div class="footer__block-description-heading">
-                            <a href="#">Elsapo</a>
+                            <a href="#" class="footer__name wavey">Elsapo</a>
                         </div>
                         <div class="footer__block-description-text">
                             We are selling natural and organic foods in New York! Buy our products and stay healthy and
@@ -335,17 +336,17 @@
                     </div>
                     <div class="footer__block-navigation">
                         <div class="footer__conteiner-navigation-left">
-                            <a href="">Deals</a>
-                            <a href="">Product</a>
-                            <a href="">Healthy Bar</a>
-                            <a href="">About</a>
+                            <a href="#" class="footer__links">Deals</a>
+                            <a href="#" class="footer__links">Product</a>
+                            <a href="#" class="footer__links">Healthy Bar</a>
+                            <a href="#" class="footer__links">About</a>
                         </div>
                         <br>
                         <div class="footer__conteiner-navigation-right">
-                            <a href="">Recipes</a>
-                            <a href="">Blog</a>
-                            <a href="">Careers</a>
-                            <a href="">Contacts</a>
+                            <a href="#" class="footer__links">Recipes</a>
+                            <a href="#" class="footer__links">Blog</a>
+                            <a href="#" class="footer__links">Careers</a>
+                            <a href="#" class="footer__links">Contacts</a>
                         </div>
                     </div>
                     
@@ -355,8 +356,12 @@
                         </div>
                         <div class="footer__block-form-email">
                             <form>
-                            <input name="email" type="email" id="email-footer" placeholder="Email*"
+                            <input oninput="handleInput(event)" name="email" type="email" id="email-footer" placeholder="Email*"
                                 class="footer__block-form-email-field" required>
+                                <div class="icons">
+                                    <i class='bx bxs-check-circle check' ></i>
+                                    <i class='bx bxs-x-circle x' ></i>
+                                  </div>
                             <input type="Submit" value="SUBSCRIBE" id="footer-email-btn"
                                 class="footer__block-form-button">
                             </form>
@@ -374,8 +379,15 @@
             
         </footer>	
         <!--Ivan block end-->
-
+<!-- SCRIPTS---------------------------------------------------------------------------------------------------------------------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.9.2/TweenMax.min.js'></script>
+    <script src="/javascript/footer-email-validation.js"></script>
+    <script src="/javascript/wavy-footer.js"></script>
+    <script  src="/javascript/footer.js"></script>    
+<!-- SCRIPTS---------------------------------------------------------------------------------------------------------------------->
+
 </body>
 
 </html>
