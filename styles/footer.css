@@ -335,7 +335,6 @@ i {
       list-style: none;
       text-decoration: none;
   }
-.fa-instagram,
 .fa-instagram:hover {
     background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
     background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
@@ -345,7 +344,7 @@ i {
     font-size: 40px;
 }
 
-.fa-google {
+.fa-google:hover {
     background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
     -webkit-background-clip: text;
     background-clip: text;
@@ -354,30 +353,51 @@ i {
     font-size: 40px;
 }
 
-.fa-twitter,
 .fa-twitter:hover {
+    font-size: 40px;
+    -webkit-background-clip: text;
+    background-clip: text;
     color: #00ACEE;
-    font-size: 40px;
+    -webkit-text-fill-color: #00ACEE;
 }
 
-.fa-facebook-f,
 .fa-facebook-f:hover {
-    color: blue;
     font-size: 40px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: #00ACEE;
+    -webkit-text-fill-color: #00ACEE;
 }
 
-.fa-linkedin,
 .fa-linkedin:hover {
+    font-size: 40px;
+    -webkit-background-clip: text;
+    background-clip: text;
     color: #007AB9;
-    font-size: 40px;
+    -webkit-text-fill-color: #007AB9;
 }
-.fa-github-square,
 .fa-github-square:hover {
-    color: #333;
     font-size: 40px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: #333;
+    -webkit-text-fill-color: #333;
 }
-.fa-youtube,
 .fa-youtube:hover {
+    font-size: 40px;
+    -webkit-background-clip: text;
+    background-clip: text;
     color: #FF0000;
+    -webkit-text-fill-color: #FF0000;
+}
+
+.fa-youtube,
+.fa-github-square,
+.fa-facebook-f,
+.fa-linkedin,
+.fa-twitter,
+.fa-instagram,
+.fa-google {
+    color: var(--elsapo-color) !important;
     font-size: 40px;
 }
