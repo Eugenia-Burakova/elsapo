@@ -301,3 +301,73 @@ i {
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
   }
+  @media (min-width: 320px) {
+  .footer_social-media {
+    margin-top: 30px;
+  }
+  .footer_social-media .fa {
+      margin-left: 10px;
+  }
+  }
+@media (min-width: 1024px) {
+    .footer_social-media {
+        margin-top: -50px;
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-self: center;
+    }
+}
+
+
+  .footer_social-media a {
+      list-style: none;
+      text-decoration: none;
+  }
+.fa-instagram,
+.fa-instagram:hover {
+    background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+.fa-twitter,
+.fa-twitter:hover {
+    color: #00ACEE;
+    font-size: 40px;
+}
+
+.fa-facebook-f,
+.fa-facebook-f:hover {
+    color: blue;
+    font-size: 40px;
+}
+
+.fa-linkedin,
+.fa-linkedin:hover {
+    color: #007AB9;
+    font-size: 40px;
+}
+.fa-github-square,
+.fa-github-square:hover {
+    color: #333;
+    font-size: 40px;
+}
+.fa-youtube,
+.fa-youtube:hover {
+    color: #FF0000;
+    font-size: 40px;
+}
