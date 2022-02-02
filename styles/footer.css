@@ -269,9 +269,19 @@ i {
         right: 1550%;
     }
   }
-  @media (min-width: 400px) {
+  @media (min-width: 360px) {
     i {
         right: 200%;
+    }
+  }
+  @media (min-width: 400px) {
+    i {
+        right: 240%;
+    }
+  }
+  @media (min-width: 450px) {
+    i {
+        right: 350%;
     }
   }
   @media (min-width: 1024px) {
