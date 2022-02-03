@@ -66,6 +66,10 @@
     .our-promise {
         text-align: center;
     }
+
+    .our-promise__title {
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 768px) {
