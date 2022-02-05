@@ -31,11 +31,20 @@
     margin: 30px;
 }
 
-.our-location__map-gmap-canvas {
+.our-location__map-gmap {
     display: block;
     width: 100%;
     height: 450px;
     text-align: center;
+}
+
+#map {
+    z-index: 1;
+}
+
+.firstHeading {
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
 }
 
 @media (min-width: 600px) {
