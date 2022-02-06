@@ -17,7 +17,7 @@
             content: contentString,
         });
   
-        const marker = new google.maps.Marker({
+        let marker = new google.maps.Marker({
             position: elsapoCoordinates,
             map,
             title: "ELSAPO",
