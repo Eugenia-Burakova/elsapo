@@ -6,6 +6,10 @@
     padding-bottom: 90px;
 }
 
+.about-elsapo__content {
+    max-width: 1200px;
+}
+
 .about-elsapo__title {
     font-family: "Raleway", sans-serif;
     color: var(--section-name-color);
@@ -35,7 +39,7 @@
     .about-elsapo__title {
         font-size: 50px;
     }
-    .about-elsapo{
+    .about-elsapo__content {
         display: grid;
         grid-template-columns: auto auto;
         background-color: white;
@@ -43,7 +47,7 @@
 }
 
 @media (min-width: 1010px) {
-    .about-elsapo {
+    .about-elsapo__content {
         grid-column-gap: 80px;
         margin: auto;
     }
