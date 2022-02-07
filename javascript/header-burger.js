@@ -27,6 +27,7 @@ if(iconMenu){
                 document.body.classList.remove("lock");
                 iconBurger.classList.remove("active");
                 navigationsBody.classList.remove("active");
+                headerButtons.classList.remove("active");
             }
           }
       );
