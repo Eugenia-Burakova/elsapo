@@ -3,7 +3,6 @@
     width: auto;
     height: 340px;
     background-repeat: no-repeat;
-    margin: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -11,14 +10,14 @@
 
 .contact_us_p {
     color: #f6f5f0;
-    font-size: 55px;
+    font-size: 25px;
     font-family: "Raleway", sans-serif;
-    width: 600px;
+    width: 200px;
 }
 
 .contact_us_btn {
-    width: 130px;
-    height: 45px;
+    width: 117px;
+    height: 40px;
     background-color: #25634d;
     border: #25634d;
     border-radius: 5px;
@@ -34,4 +33,32 @@
     background-color: white;
     color: black;
     transition: 0.5s;
+    box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 4px 12px 60px 4px rgba(0, 0, 0, 0.19);
+}
+
+@media(min-width:375px) {
+    .contact_us_btn {
+        width: 130px;
+        height: 45px;
+    }
+}
+
+@media(min-width:420px) {
+    .contact_us_p {
+        font-size: 30px;
+    }
+}
+
+@media(min-width:700px) {
+    .contact_us_p {
+        width: 400px;
+        font-size: 45px;
+    }
+}
+
+@media(min-width:1100px) {
+    .contact_us_p {
+        width: 600px;
+        font-size: 55px;
+    }
 }

@@ -87,6 +87,7 @@
     background-color: #25634d;
     color: #fed34a;
     transition: 0.4s;
+    box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 4px 12px 60px 4px rgba(0, 0, 0, 0.19);
 }
 
 .modal_button1,
