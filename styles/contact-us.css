@@ -1,6 +1,7 @@
 .contact_us_block {
     background-image: url(../img/contact-us/contact_us.webp);
     width: auto;
+    margin: auto;
     height: 340px;
     background-repeat: no-repeat;
     display: flex;
@@ -61,5 +62,11 @@
     .contact_us_p {
         width: 600px;
         font-size: 55px;
+    }
+}
+
+@media(min-width:1910px) {
+    .contact_us_block {
+        background-repeat: round;
     }
 }
