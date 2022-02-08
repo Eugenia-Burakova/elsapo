@@ -71,7 +71,7 @@
 .more1:hover {
     background-color: #25634d;
     color: #fed34a;
-    transition: 0.7s;
+    transition: 0.4s;
 }
 
 .modal_button1 {
@@ -87,7 +87,7 @@
     padding: 0;
     border: 5px solid #c6cfff;
     width: 270px;
-    max-height: 209px;
+    height: 209px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: none;
     border-radius: 10px;
@@ -97,6 +97,7 @@
 
 .close1 {
     cursor: pointer;
+    font-size: 20px;
 }
 
 .modal-animation {
@@ -106,11 +107,9 @@
 
 @keyframes animatetop {
     0% {
-        top: 0px;
         opacity: 0;
     }
     100% {
-        bottom: 100px;
         opacity: 1;
     }
 }
@@ -132,6 +131,12 @@
     margin-top: -10px;
 }
 
+.more2:hover {
+    background-color: #25634d;
+    color: #fed34a;
+    transition: 0.4s;
+}
+
 .modal_button2 {
     display: flex;
     justify-content: center;
@@ -145,7 +150,7 @@
     padding: 0;
     border: 5px solid #c6cfff;
     width: 270px;
-    max-height: 209px;
+    height: 209px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: none;
     border-radius: 10px;
@@ -179,6 +184,12 @@
     margin-top: -10px;
 }
 
+.more3:hover {
+    background-color: #25634d;
+    color: #fed34a;
+    transition: 0.4s;
+}
+
 .modal_button3 {
     display: flex;
     justify-content: center;
@@ -192,7 +203,7 @@
     padding: 0;
     border: 5px solid #c6cfff;
     width: 270px;
-    max-height: 209px;
+    height: 209px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: none;
     border-radius: 10px;
@@ -226,6 +237,12 @@
     margin-top: -10px;
 }
 
+.more4:hover {
+    background-color: #25634d;
+    color: #fed34a;
+    transition: 0.4s;
+}
+
 .modal_button4 {
     display: flex;
     justify-content: center;
@@ -239,7 +256,7 @@
     padding: 0;
     border: 5px solid #c6cfff;
     width: 270px;
-    max-height: 209px;
+    height: 209px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: none;
     border-radius: 10px;
@@ -273,6 +290,12 @@
     margin-top: -10px;
 }
 
+.more5:hover {
+    background-color: #25634d;
+    color: #fed34a;
+    transition: 0.4s;
+}
+
 .modal_button5 {
     display: flex;
     justify-content: center;
@@ -286,7 +309,7 @@
     padding: 0;
     border: 5px solid #c6cfff;
     width: 270px;
-    max-height: 209px;
+    height: 209px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: none;
     border-radius: 10px;
@@ -320,6 +343,12 @@
     margin-top: -10px;
 }
 
+.more6:hover {
+    background-color: #25634d;
+    color: #fed34a;
+    transition: 0.4s;
+}
+
 .modal_button6 {
     display: flex;
     justify-content: center;
@@ -333,7 +362,7 @@
     padding: 0;
     border: 5px solid #c6cfff;
     width: 270px;
-    max-height: 209px;
+    height: 209px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: none;
     border-radius: 10px;
@@ -367,6 +396,12 @@
     margin-top: -10px;
 }
 
+.more7:hover {
+    background-color: #25634d;
+    color: #fed34a;
+    transition: 0.4s;
+}
+
 .modal_button7 {
     display: flex;
     justify-content: center;
@@ -380,7 +415,7 @@
     padding: 0;
     border: 5px solid #c6cfff;
     width: 270px;
-    max-height: 209px;
+    height: 209px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: none;
     border-radius: 10px;
@@ -414,6 +449,12 @@
     margin-top: -10px;
 }
 
+.more8:hover {
+    background-color: #25634d;
+    color: #fed34a;
+    transition: 0.4s;
+}
+
 .modal_button8 {
     display: flex;
     justify-content: center;
@@ -427,7 +468,7 @@
     padding: 0;
     border: 5px solid #c6cfff;
     width: 270px;
-    max-height: 209px;
+    height: 209px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: none;
     border-radius: 10px;
