@@ -1,6 +1,7 @@
 .choose_img {
-    width: 5%;
+    width: 50%;
     margin: auto;
+    padding-top: 20px;
 }
 
 .choose_text {
@@ -14,30 +15,35 @@
 .choose_block {
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    margin: auto;
 }
 
 .choose_common {
     display: grid;
     grid-template-columns: 1fr;
-    margin-bottom: 70px;
-    margin-top: 50px;
+    gap: 50px;
 }
 
 @media(min-width:300px) {
     .choose_img {
-        width: 20%;
+        width: 30%;
     }
 }
 
 @media(min-width:500px) {
     .choose_img {
-        width: 20%;
+        width: 30%;
     }
 }
 
 @media(min-width:800px) {
     .choose_img {
-        width: 15%;
+        width: 35%;
     }
 }
 
@@ -47,7 +53,7 @@
     }
 }
 
-@media(min-width:900px) {
+@media(min-width:950px) {
     .choose_common {
         grid-template-columns: 1fr 1fr 1fr;
     }
