@@ -13,11 +13,13 @@ if(iconMenu){
     const iconBurger = document.querySelector(".burger_icon");
     const navigationsBody = document.querySelector(".nav_menu");
     const headerButtons = document.querySelector(".header__buttons");
+    const headerName = document.querySelector(".sitename");
     iconBurger.addEventListener("click", function (e) {
       document.body.classList.toggle("lock");
       iconBurger.classList.toggle("active");
       navigationsBody.classList.toggle("active");
       headerButtons.classList.toggle("active");
+      headerName.classList.toggle("active");
     });
   
     const navLinks = document.querySelectorAll(".header__buttons");
@@ -28,6 +30,7 @@ if(iconMenu){
                 iconBurger.classList.remove("active");
                 navigationsBody.classList.remove("active");
                 headerButtons.classList.remove("active");
+                headerName.classList.remove("active");
             }
           }
       );

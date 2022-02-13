@@ -12,14 +12,11 @@
 .header{
     min-height: 500px;
 }
-
-
 .header__panel{
     display: flex;
     width: 100%;
     justify-content: space-between;
     height: 111px;
-
 }
 
 @media(max-width:990px){
@@ -35,11 +32,12 @@
     .burger_icon::before,
     .burger_icon::after{
     position: absolute;
-    background-color: red;
+    background-color: var(--text-primary-color);
     height: 10%;
     width: 100%;
     margin-right: 150px;
     transition: all 0.3s ease 0s;
+    z-index: 2;
     }
     .burger_icon::before,
     .burger_icon::after{
@@ -56,12 +54,10 @@
         transform: scale(1) translate(0px, -50%);
     }
 }
-.header__buttons{
-    display: none;
-}
+
 
 @media(min-width:990px){
-    .header__buttons a{
+    .header__buttons a, .header__buttons_pc a{
         color: var(--header-buttons-color);
         font-family:"Open Sans", sans-serif;
         font-size:16px;
@@ -75,7 +71,7 @@
         display: none;
     }
 }
-.header__buttons a{
+.header__buttons a,.header__buttons_pc a{
     color: var(--header-buttons-color);
     font-family:"Open Sans", sans-serif;
     font-size:16px;
@@ -85,9 +81,9 @@
     display: flex;
     flex-direction: row;
 }
-.header__buttons a:hover{
+.header__buttons a:hover,.header__buttons_pc a:hover{
     color: var(--button-color);
-    font-size:28px;
+    font-size:20px;
     font-weight:900;
 }
 .nav_menu{
@@ -96,9 +92,9 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: rgba(211, 206, 206, 0.8);
-    z-index: 100;
+    background-color: var(--burger-fon-color);
     transition: all 0.3s ease 0s;
+    z-index: 1;
 }
 .nav_menu.active{
     left:0;
@@ -107,6 +103,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .header__buttons.active{
     display: flex;
@@ -114,13 +111,30 @@
     justify-content: center;
     align-items: center;
     width: 50%;
+
 }
 body.lock{
     overflow: hidden;
+
+}
+.burger_icon.active{
+    z-index: 1;
 }
 
+.header__buttons_pc{
+    display: none;
+}
+@media(min-width:991px){
+    .header__buttons_pc{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+}
 
-
+.sitename.active{
+    z-index: 2;
+}
 
 
 
