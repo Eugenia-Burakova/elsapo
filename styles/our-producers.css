@@ -103,3 +103,54 @@ div {
       margin: 20px;
     }
 }
+/****************COUNTDOWN*****************/
+   
+
+.countdown-title {
+    color: #25634d;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    
+   }
+   
+   .hr-producers {
+    background-color: #fed34a;
+    border: 0;
+    width: 70px;
+    height: 2px;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   
+   .countdown {
+    font-family: Lato, sans-serif;
+    color: #25634d;
+    display: block;
+    font-weight: 150;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+   }
+   
+   .countdown-number {
+    padding: 15px;
+    border-radius: 3px;
+    background: #b8d94f;
+    display: inline-block;
+   }
+   
+   .countdown-time {
+    padding: 40px;
+    border-radius: 3px;
+    background: #b8d94f;
+    display: inline-block;
+   }
+   
+   .countdown-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 20px;
+   }
