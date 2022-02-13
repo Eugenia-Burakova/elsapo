@@ -1,3 +1,5 @@
+(function() {
+
 $(".footer__name").each(function(index, element){
     var animation = TweenLite.to(this, 0.1, {
       className: '+= superShadow',
@@ -13,4 +15,4 @@ $(".footer__name").each(function(index, element){
   }, function(){
    this.animation.reverse();
   })
-  
+})();
