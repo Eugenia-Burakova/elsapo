@@ -7,9 +7,7 @@ body {
     margin: 0;
 }
   
-div {
-    box-sizing: border-box;
-}
+
   
 #our-producers {
     display: flex;
@@ -48,6 +46,7 @@ div {
     flex-direction: column;
     margin: 0 calc(var(--cardsGap) / 2);
     margin-bottom: 50px;
+    border: none;
 }
   
 .card-title {
