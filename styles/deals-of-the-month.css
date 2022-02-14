@@ -25,13 +25,12 @@
 
 @media (min-width:640px) {
     .carousel-item{
-        height: 706px;
+        height: 606px;
     }
-    
     .carousel-item img{
-        height: 554px;
-        width: auto;
-        object-fit: cover;
+        height: 454px;
+        width: 300px;
+        object-fit: scale-down;
     }
 }
 
