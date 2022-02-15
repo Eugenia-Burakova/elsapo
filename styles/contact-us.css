@@ -70,3 +70,10 @@
         background-repeat: round;
     }
 }
+
+@media(min-width:2800px) {
+    .contact_us_block {
+        background-repeat: round;
+        max-width: 2800px;
+    }
+}
