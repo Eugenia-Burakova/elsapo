@@ -440,7 +440,9 @@
         </div>
 
         <!--Zhenya Our Location start-->
-        <a id="our-location" href="#"></a>
+
+        <!-- first map start -->
+        <!-- <a id="our-location" href="#"></a>
         <section class="our-location" id="our-location">
 
             <h2 class="our-location__title">Our Location</h2>
@@ -451,7 +453,25 @@
                 <div class="our-location__map-gmap" id="map"></div>
             </div>
 
+        </section> -->
+        <!-- first map end -->
+
+       
+        <!-- second map start -->
+        <a id="our-location" href="#"></a>
+        <section class="our-location" id="our-location">
+            
+            <h2 class="our-location__title">Our Location</h2>
+            
+            <div class="our-location__hr"></div>
+            
+            <div class="our-location__map">
+                <div class="our-location__map-gmap" id="map"></div>
+            </div>
+            
         </section>
+        <!-- second map end -->
+
         <!--Zhenya Our Location end-->
 
         <!-- Dima's Section-->
@@ -563,7 +583,18 @@
     <script src="javascript/header-burger.js"></script>
     <script src="javascript/about-elsapo-carousel.js"></script>
     <script src="javascript/our-location-map.js"></script>
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAufbGBGXDfvO8bg1vD28-eL5Dhl6-6_Cs&callback=initMap"></script>
+
+    <!-- first map js start -->
+    <!-- <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAufbGBGXDfvO8bg1vD28-eL5Dhl6-6_Cs&callback=initMap"></script> -->
+    <!-- first map js end -->
+
+    <!-- second map js start -->
+    <script
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+                defer
+    ></script>
+    <!-- second map js end -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.9.2/TweenMax.min.js'></script>
